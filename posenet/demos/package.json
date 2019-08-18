@@ -16,9 +16,9 @@
     "stats.js": "^0.17.0"
   },
   "scripts": {
-    "watch": "set NODE_ENV=development && parcel --no-hmr --open index.html ",
-    "build": "set NODE_ENV=production && parcel build index.html  --no-minify --public-url ./",
-    "build-camera": "set NODE_ENV=production && parcel build camera.html  --no-minify --public-url ./",
+    "watch": "set NODE_ENV=development && parcel --no-hmr --open ./index.html ",
+    "build": "set NODE_ENV=production && parcel build ./index.html  --no-minify --public-url ./",
+    "build-camera": "set NODE_ENV=production && parcel build ./camera.html  --no-minify --public-url ./",
     "lint": "eslint ."
   },
   "browser": {
